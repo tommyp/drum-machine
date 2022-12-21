@@ -62,3 +62,24 @@
 		</div>
 	{/each}
 </section>
+
+<style>
+	section {
+		display: flex;
+	}
+	.beat {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.beat__number {
+		width: 2rem;
+	}
+
+	.beat__toggle {
+		width: 2rem;
+	}
+</style>
