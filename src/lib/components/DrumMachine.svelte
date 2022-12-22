@@ -1,5 +1,13 @@
 <script lang="ts">
-	const beats = {
+	interface Beat {
+		enabled: boolean;
+	}
+
+	interface Beats {
+		[key: number]: Beat;
+	}
+
+	const beats: Beats = {
 		1: {
 			enabled: false
 		},
